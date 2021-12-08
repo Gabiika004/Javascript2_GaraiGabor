@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Gyakorlása Garai Gábor</title>
+</head>
+<body>
+
+<div id="box1">
+
+    <div id="First">
+       <h1>Első feladat</h1>  
+       <h2>Váltogassunk két képet:</h2>     
+       <div id="IMG">
+       <img id="img" src="HTML5.png" alt="HTML" title="HTML">
+       </div>
+       <button onclick="Switch();" id="img_button">HTML/CSS</button>
+    
+
+    </div>
+    <div id="Second">
+        <h1>Második feladat</h1>
+        <h2>Számoljuk ki egy kocka felszínét és térfogatát: </h2>
+        <label for="a">Kérlek, add meg a kocka élének hosszát (cm):</label> 
+        <input type="text" id="a" o>
+        <button onclick="Count();">Számolás</button>
+        <p id="eredmeny"></p>
+        
+
+    </div>
+
+    <div id="Third">
+        <h1>Harmadik feladat</h1>
+        <h2>Nézzük meg milyen életkori szakaszban járunk:</h2>
+        <label for="age">Kérlek, add meg hány éves vagy:</label> 
+        <input type="text" id="age">
+        <button onclick="Age();">Kész</button>
+        
+        <p id="eletkor"></p>
+        
+
+    </div>
+
+</div>
+
+<div id="box2">
+
+    <div id="Fourth">
+        <h1>Negyedik feladat</h1>
+        <h2>Nézzük meg az egész számokat 1-től 20-ig:</h2>
+        <button onclick="Szamok();">Gyerünk</button>
+        <div id="egeszSzamok">
+
+        </div>
+
+    </div>
+    <div id="Fifth">
+        <h1>Ötödik feladat</h1>
+        <h2>Adjuk össze 2 szám között az egész számokat:</h2>
+        <label for="egyik">Egyik: </label> <input type="text" id="egyik"><br>
+        <label for="masik">Másik: </label> <input type="text" id="masik">
+        <button id="utolso" onclick="OsszeadKattint();">Összead</button>
+        <p id="Osszeadas"></p>
+        
+
+    </div>
+
+    
+    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+#box1,#box2{
+    margin-left:30px
+}
+img{
+    height: 200px;
+}
+
+p{
+    font-size: 20px;
+}
+label{
+    font-size: 20px;
+
+}
+
+h2{
+    margin-bottom: 10px;
+}
+#First{
+    background-color:mediumaquamarine;
+    width: 370px;
+    height: 350px;
+    margin: 0px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+    border-radius: 15%;
+    float: left;
+    
+
+
+}
+input{
+    margin: 20px 20px 5px 0px;
+
+}
+#img_button{
+    position: absolute;
+    width: 100px;
+    height: 60px;
+    top: 170px;
+    left: 290px;
+
+    
+}
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    
+
+}
+button:hover{
+    background-color:rgb(0, 255, 0);
+    border-radius: 20%;
+}
+
+#Second{
+    background-color:rgb(81, 156, 5);
+    width: 370px;
+    height: 350px;
+    margin: 0px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+    border-radius: 15%;
+    float: left;
+    
+}
+
+#Third{
+    background-color: rgb(83, 168, 87);
+    width: 370px;
+    height: 350px;
+    margin: 0px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+    border-radius: 15%;
+    float: left;
+    
+}
+
+#Fourth{
+    background-color:rgb(5, 121, 156);
+    width: 370px;
+    height: 350px;
+    margin: 0px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+    border-radius: 15%;
+    float: left;
+    
+    
+}
+
+#Fifth{
+    background-color:rgb(170, 5, 27);
+    width: 370px;
+    height: 350px;
+    margin: 0px 20px 10px 0px;
+    padding: 10px 20px 10px 30px;
+    border-radius: 15%;
+    float: left;
+    
+    
+}
+
+.p{
+    padding: 0px 8px 0px 7px;
+    float: left;  
+    font-size: 23px;
+}
+p{
+
+    font-size: 23px;
+}
+#utolso{
+    margin-top: 15px;
+}
